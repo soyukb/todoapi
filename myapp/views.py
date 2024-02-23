@@ -8,7 +8,7 @@ from rest_framework.views import APIView
 from myapp.serializers import ToDosSerializer
 
 # Create your views here.
-class ToDo(APIView):
+class ToDoAPI(APIView):
 
     def get(self, request, pk):
         try:
